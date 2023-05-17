@@ -35,6 +35,7 @@ def wrap(val)
 
     new_value = val
 
+    #If the val is greater than 122 me must subtract 26 (representing 26 characters) in order to find the appropriate numeric value corresponding to a character in the alphabet
     while new_value > 122 do
 
         new_value = new_value-26
@@ -46,3 +47,6 @@ def wrap(val)
 end
 
 caesar_cipher("helloz  youx",12)
+
+
+
